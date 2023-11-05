@@ -1,0 +1,131 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\ELKIN\Downloads\Version Final-20231102T051235Z-001\Version Final\Meno_1.prj" location="C:\Users\ELKIN\Downloads\Version Final-20231102T051235Z-001\Version Final" name="Meno_1" target="target.mlapps" target-name="Package App">
+    <param.appname>Meno_1</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\ELKIN\AppData\Local\Temp\tpdd31bad5_a946_4a76_8f5c_42bc7f47d952.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>2a796e45-a312-4fd3-b504-107cd5794bd2</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Meno.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\ELKIN\Desktop\2023\todo solar\antes\WindDesign-main (1)\WindDesign-main\iconos\instrucciones1.svg</file>
+      <file>C:\Users\ELKIN\Desktop\2023\todo solar\antes\WindDesign-main (1)\WindDesign-main\imagenes\txtconformato.png</file>
+      <file>C:\Users\ELKIN\Desktop\2023\todo solar\antes\WindDesign-main (1)\WindDesign-main\imagenes\txtsinformato.png</file>
+      <file>C:\Users\ELKIN\Desktop\2023\todo solar\antes\WindDesign-main (1)\WindDesign-main\imagenes\xlsxconformato.png</file>
+      <file>C:\Users\ELKIN\Desktop\2023\todo solar\antes\WindDesign-main (1)\WindDesign-main\imagenes\xlsxsinformato.png</file>
+      <file>${PROJECT_ROOT}\160426110641_promo-cropped.jpg</file>
+      <file>${PROJECT_ROOT}\277-2772650_calculator-coloring-page-dibujos-de-calculadoras-para-colorear.png</file>
+      <file>${PROJECT_ROOT}\app2.mlapp</file>
+      <file>${PROJECT_ROOT}\Barra.png</file>
+      <file>${PROJECT_ROOT}\Baterias.png</file>
+      <file>${PROJECT_ROOT}\BienvenidoInstru.jpg</file>
+      <file>${PROJECT_ROOT}\boton1.jpg</file>
+      <file>${PROJECT_ROOT}\boton2.jpg</file>
+      <file>${PROJECT_ROOT}\boton3.jpg</file>
+      <file>${PROJECT_ROOT}\boton4.jpg</file>
+      <file>${PROJECT_ROOT}\boton5.jpg</file>
+      <file>${PROJECT_ROOT}\Calculos.mlapp</file>
+      <file>${PROJECT_ROOT}\cargasv.png</file>
+      <file>${PROJECT_ROOT}\coma.png</file>
+      <file>${PROJECT_ROOT}\Configuracion.mlapp</file>
+      <file>${PROJECT_ROOT}\datosv.png</file>
+      <file>${PROJECT_ROOT}\Escudo.png</file>
+      <file>${PROJECT_ROOT}\iniciaric.png</file>
+      <file>${PROJECT_ROOT}\instru.mlapp</file>
+      <file>${PROJECT_ROOT}\instrus.png</file>
+      <file>${PROJECT_ROOT}\Logo IE.png</file>
+      <file>${PROJECT_ROOT}\Panel.png</file>
+      <file>${PROJECT_ROOT}\subirarc.png</file>
+      <file>${PROJECT_ROOT}\Topologia.mlapp</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\ELKIN\Downloads\Version Final-20231102T051235Z-001" name="Version Final" optional="false">C:\Users\ELKIN\Downloads\Version Final-20231102T051235Z-001\Version Final</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
